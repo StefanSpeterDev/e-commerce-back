@@ -1,13 +1,13 @@
 version: "3.9"
 services:
-  frontend:
-    image: node:14.17.0
-    command: npm run dev
-    volumes:
-      - ./frontend:/usr/src/app
-    working_dir: /usr/src/app
-    ports:
-      - "4000:4000"
+#  frontend:
+#    image: node:14.17.0
+#    command: npm run dev
+#    volumes:
+#      - ./frontend:/usr/src/app
+#    working_dir: /usr/src/app
+#    ports:
+#      - "4000:4000"
   server:
     image: node:14.17.0
     command: bash -c "cd /var/www && ./node_modules/.bin/pm2 start startup.json --name API --no-daemon"
