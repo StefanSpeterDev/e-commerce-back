@@ -11,4 +11,6 @@ router.patch('/update', service.update);
 
 router.delete('/delete', service.delete);
 
+router.get('/', service.getAll);
+
 module.exports = router;

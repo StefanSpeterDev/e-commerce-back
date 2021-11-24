@@ -52,14 +52,31 @@ exports.getById = async (req, res, next) => {
     const { id } = req.params;
 
     try {
-        let user = await Phone.findById(id);
+        let phone = await Phone.findById(id);
 
-        if (user) {
-            return res.status(200).json(user);
+        if (phone) {
+            return res.status(200).json(phone);
         }
 
         return res.status(404).json('user_not_found');
     } catch (error) {
         return res.status(501).json(error);
     }
+}
+
+exports.getAll = async (req, res, next) => {
+    try{
+        let phone = await Phone.find({});
+        console.log(phone);
+        if (phone) {
+            return res.status(200).json(phone);
+        }
+        return res.status(404).json('phones trouvés');
+    }catch (error) {
+        return res.status(501).json(error);
+    }
+    /*Phone.find()
+        .then(things => res.status(200).json(things))
+        .catch(error => res.status(400).json({ error }));*/
+
 }
