@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+  frontend:
+    image: node:14.17.0
+    command: npm run dev
+    volumes:
+      - ./frontend:/usr/src/app
+    working_dir: /usr/src/app
+    ports:
+      - "4000:4000"
+  server:
+    image: node:14.17.0
+    command: bash -c "cd /var/www && ./node_modules/.bin/pm2 start startup.json --name API --no-daemon"
+    volumes:
+      - "./api:/var/www"
+    ports:
+      - "8081:3000"
+    links:
+      - mongo
+    environment:
+      - URL_MONGO=mongodb://api:docker1234@mongo
+  mongo:
+    image: mongo:4.0
+    volumes:
+      - "./mongo/data:/data/db"
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=api
+      - MONGO_INITDB_ROOT_PASSWORD=docker1234
