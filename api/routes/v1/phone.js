@@ -7,6 +7,8 @@ router.get('/:id', service.getById);
 
 router.put('/add', service.add);
 
+router.put('/addAll', service.addAll);
+
 router.patch('/update', service.update);
 
 router.delete('/delete', service.delete);
