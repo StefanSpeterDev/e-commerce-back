@@ -77,7 +77,6 @@ exports.getById = async (req, res, next) => {
 exports.getAll = async (req, res, next) => {
     try{
         let phone = await Phone.find({});
-        console.log(phone);
         if (phone) {
             return res.status(200).json(phone);
         }
@@ -85,8 +84,4 @@ exports.getAll = async (req, res, next) => {
     }catch (error) {
         return res.status(501).json(error);
     }
-    /*Phone.find()
-        .then(things => res.status(200).json(things))
-        .catch(error => res.status(400).json({ error }));*/
-
 }

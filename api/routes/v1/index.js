@@ -3,6 +3,7 @@ var router = express.Router();
 
 const userRoute = require('./user');
 const phoneRoute = require('./phone');
+const cartRoute = require('./cart');
 
 router.get('/', async (req, res) => {
   res.status(200).json({
@@ -15,5 +16,6 @@ router.get('/', async (req, res) => {
 
 router.use('/users', userRoute);
 router.use('/phones', phoneRoute);
+router.use('/cart', cartRoute);
 
 module.exports = router;
