@@ -12,6 +12,16 @@ exports.add = async (req, res, next) => {
     }
 }
 
+exports.addAll = async (req, res, next) => {
+    //req.body.map(element=>function(element){
+        try {
+            let phone =  await Phone.insertMany(req.body);
+            return res.status(201).json(phone);
+        } catch (error) {
+            return res.status(501).json(error);
+        }
+}
+
 exports.update = async (req, res, next) => {
     const temp = new Phone({
         ...req.body
