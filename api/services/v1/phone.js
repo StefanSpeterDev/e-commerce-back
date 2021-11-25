@@ -80,8 +80,10 @@ exports.getAll = async (req, res, next) => {
         console.log(phone);
         if (phone) {
             return res.status(200).json(phone);
+        }else{
+            return res.status(404).json('phones trouvés');
+
         }
-        return res.status(404).json('phones trouvés');
     }catch (error) {
         return res.status(501).json(error);
     }

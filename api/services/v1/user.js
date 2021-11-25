@@ -94,8 +94,7 @@ exports.login = async (req, res, next) => {
             return res.status(400).json({ message: 'Error. Please enter the correct username and password' })
         }
 
-        // const user = await User.findOne({email:req.body.email , password:req.body.password})
-        const user = await User.findOne ({ "email" : req.body.email })
+        const user = await User.findOne({"email":req.body.email })
 
         console.log(user.id,user.username)
 
@@ -119,11 +118,14 @@ exports.login = async (req, res, next) => {
 
 exports.getMe = async (req, res, next) => {
 
+
     bearer.checkTokenMiddleware(req,res,next)
 
     const token = req.headers.authorization && bearer.extractBearer(req.headers.authorization)
     // Décodage du token
     const decoded = jwt.decode(token, { complete: false })
+
+
 
 
 
