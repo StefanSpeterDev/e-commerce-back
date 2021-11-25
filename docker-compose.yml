@@ -10,9 +10,9 @@ services:
 #      - "4000:4000"
   server:
     image: node:14.17.0
-    command: bash -c "cd /var/www && ./node_modules/.bin/pm2 start startup.json --name API --no-daemon"
+    command: bash -c "cd /var/www.js && ./node_modules/.bin/pm2 start startup.json --name API --no-daemon"
     volumes:
-      - "./api:/var/www"
+      - "./api:/var/www.js"
     ports:
       - "8081:3000"
     links:
