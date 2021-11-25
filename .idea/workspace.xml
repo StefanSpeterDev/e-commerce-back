@@ -3,19 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="67dafcbd-f23a-45dd-bd84-92666d481e5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/collection-2--2484030312583681284.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/collection-2--2484030312583681284.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/collection-2-1416165912903929815.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/collection-2-1416165912903929815.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/collection-4-1416165912903929815.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/collection-4-1416165912903929815.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-24T15-22-59Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-24T15-22-59Z-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.interim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/index-3--2484030312583681284.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/index-3--2484030312583681284.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/index-3-1416165912903929815.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/index-3-1416165912903929815.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/index-5-1416165912903929815.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/index-5-1416165912903929815.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/index-6-1416165912903929815.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/index-6-1416165912903929815.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/journal/WiredTigerLog.0000000007" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/data/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/WiredTiger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/WiredTiger.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/WiredTiger.turtle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/WiredTiger.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/WiredTigerLAS.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/_mdb_catalog.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/collection-0--2484030312583681284.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/collection-0-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/collection-2--2484030312583681284.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/collection-2-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/collection-4-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/collection-7-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-24T14-20-04Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-24T14-20-53Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-24T14-24-13Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-24T14-30-07Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-24T14-31-32Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-24T15-22-59Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.2021-11-25T09-35-00Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/diagnostic.data/metrics.interim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-1--2484030312583681284.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-1-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-3--2484030312583681284.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-3-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-4--2484030312583681284.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-5-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-6-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-8-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/index-9-1416165912903929815.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/journal/WiredTigerLog.0000000008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/journal/WiredTigerPreplog.0000000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/journal/WiredTigerPreplog.0000000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/mongod.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/sizeStorer.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/data/storage.bson" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +46,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Sovan\Documents\Code\PhpStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,5 +85,21 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="e" />
+    <option name="LAST_COMMIT_MESSAGE" value="e" />
   </component>
 </project>

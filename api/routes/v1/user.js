@@ -11,4 +11,8 @@ router.patch('/update', service.update);
 
 router.delete('/delete', service.delete);
 
+router.post('/login', service.login)
+
+router.get('/me',service.getMe)
+
 module.exports = router;

@@ -1,0 +1,21 @@
+PS C:\Users\Sovan> Remove-AppxPackage Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe
+PS C:\Users\Sovan> Remove-AppxPackage Microsoft.XboxSpeechToTextOverlay_1.21.13002.0_x64__8wekyb3d8bbwe
+PS C:\Users\Sovan> Remove-AppxPackage Microsoft.XboxGameCallableUI_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy
+Remove-AppxPackage : Deployment failed with HRESULT: 0x80073CFA, Removal failed. Please contact your software vendor.
+(Exception from HRESULT: 0x80073CFA)
+error 0x80070032: AppX Deployment Remove operation on package
+Microsoft.XboxGameCallableUI_1000.18362.449.0_neutral_neutral_cw5n1h2txyewy from:
+C:\WINDOWS\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy failed. This app is part of Windows and cannot be
+uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows
+Features on or off. However, it may not be possible to uninstall the app.
+NOTE: For additional information, look for [ActivityId] 1e9e759c-9d2e-0000-74d3-a31e2e9dd501 in the Event Log or use
+the command line Get-AppPackageLog -ActivityID 1e9e759c-9d2e-0000-74d3-a31e2e9dd501
+At line:1 char:1
++ Remove-AppxPackage Microsoft.XboxGameCallableUI_1000.18362.449.0_neut ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.XboxG...l_cw5n1h2txyewy:String) [Remove-AppxPackage], IOException
+    + FullyQualifiedErrorId : DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand
+
+PS C:\Users\Sovan> Remove-AppxPackage Microsoft.XboxGameOverlay_1.47.14001.0_x64__8wekyb3d8bbwe
+PS C:\Users\Sovan> Remove-AppxPackage Microsoft.XboxGamingOverlay_3.34.15002.0_x64__8wekyb3d8bbwe
+PS C:\Users\Sovan> Remove-AppxPackage Microsoft.XboxIdentityProvider_12.58.1001.0_x64__8wekyb3d8bbwe
