@@ -35,7 +35,11 @@ exports.add = async (req, res, next) => {
     try {
         let user = await User.create(temp);
 
-        return res.status(201).json(user);
+        if(user){
+            return res.status(201).json(user);
+        }else{
+            return res.status(501).json({message: "l utilisateur existe déjà"});
+        }
     } catch (error) {
         return res.status(501).json(error);
     }
