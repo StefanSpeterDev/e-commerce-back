@@ -13,6 +13,10 @@
     "express": "~4.16.1",
     "mongoose": "^6.0.13",
     "morgan": "~1.9.1",
-    "pm2": "^5.1.2"
+    "pm2": "^5.1.2",
+    "stripe": "^8.191.0"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1"
   }
 }

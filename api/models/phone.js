@@ -77,6 +77,18 @@ const Phone = new Schema({
         type     : String,
         trim     : true,
     },
+    id_price_sem: {
+        type     : String,
+        trim     : true,
+    },
+    id_price_mois: {
+        type     : String,
+        trim     : true,
+    },
+    id_price_an: {
+        type     : String,
+        trim     : true,
+    },
 }, {
     timestamps: true // ajoute 2 champs au document createdAt et updatedAt
 });
